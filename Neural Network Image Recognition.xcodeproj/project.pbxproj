@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE003CAC1D9EDAE500AA014C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003CAB1D9EDAE500AA014C /* AppDelegate.swift */; };
+		DE003CAE1D9EDAE500AA014C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003CAD1D9EDAE500AA014C /* ViewController.swift */; };
+		DE003CB11D9EDAE500AA014C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE003CAF1D9EDAE500AA014C /* Main.storyboard */; };
+		DE003CB31D9EDAE500AA014C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE003CB21D9EDAE500AA014C /* Assets.xcassets */; };
+		DE003CB61D9EDAE500AA014C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE003CB41D9EDAE500AA014C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE003CA81D9EDAE500AA014C /* Neural Network Image Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neural Network Image Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE003CAB1D9EDAE500AA014C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE003CAD1D9EDAE500AA014C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE003CB01D9EDAE500AA014C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE003CB21D9EDAE500AA014C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE003CB51D9EDAE500AA014C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE003CB71D9EDAE500AA014C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE003CA51D9EDAE500AA014C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE003C9F1D9EDAE500AA014C = {
+			isa = PBXGroup;
+			children = (
+				DE003CAA1D9EDAE500AA014C /* Neural Network Image Recognition */,
+				DE003CA91D9EDAE500AA014C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE003CA91D9EDAE500AA014C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE003CA81D9EDAE500AA014C /* Neural Network Image Recognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE003CAA1D9EDAE500AA014C /* Neural Network Image Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				DE003CAB1D9EDAE500AA014C /* AppDelegate.swift */,
+				DE003CAD1D9EDAE500AA014C /* ViewController.swift */,
+				DE003CAF1D9EDAE500AA014C /* Main.storyboard */,
+				DE003CB21D9EDAE500AA014C /* Assets.xcassets */,
+				DE003CB41D9EDAE500AA014C /* LaunchScreen.storyboard */,
+				DE003CB71D9EDAE500AA014C /* Info.plist */,
+			);
+			path = "Neural Network Image Recognition";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE003CA71D9EDAE500AA014C /* Neural Network Image Recognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE003CBA1D9EDAE500AA014C /* Build configuration list for PBXNativeTarget "Neural Network Image Recognition" */;
+			buildPhases = (
+				DE003CA41D9EDAE500AA014C /* Sources */,
+				DE003CA51D9EDAE500AA014C /* Frameworks */,
+				DE003CA61D9EDAE500AA014C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neural Network Image Recognition";
+			productName = "Neural Network Image Recognition";
+			productReference = DE003CA81D9EDAE500AA014C /* Neural Network Image Recognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE003CA01D9EDAE500AA014C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Vento;
+				TargetAttributes = {
+					DE003CA71D9EDAE500AA014C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HD5UELD683;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE003CA31D9EDAE500AA014C /* Build configuration list for PBXProject "Neural Network Image Recognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE003C9F1D9EDAE500AA014C;
+			productRefGroup = DE003CA91D9EDAE500AA014C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE003CA71D9EDAE500AA014C /* Neural Network Image Recognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE003CA61D9EDAE500AA014C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE003CB61D9EDAE500AA014C /* LaunchScreen.storyboard in Resources */,
+				DE003CB31D9EDAE500AA014C /* Assets.xcassets in Resources */,
+				DE003CB11D9EDAE500AA014C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE003CA41D9EDAE500AA014C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE003CAE1D9EDAE500AA014C /* ViewController.swift in Sources */,
+				DE003CAC1D9EDAE500AA014C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE003CAF1D9EDAE500AA014C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE003CB01D9EDAE500AA014C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE003CB41D9EDAE500AA014C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE003CB51D9EDAE500AA014C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE003CB81D9EDAE500AA014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE003CB91D9EDAE500AA014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE003CBB1D9EDAE500AA014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD5UELD683;
+				INFOPLIST_FILE = "Neural Network Image Recognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "acn.Neural-Network-Image-Recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE003CBC1D9EDAE500AA014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD5UELD683;
+				INFOPLIST_FILE = "Neural Network Image Recognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "acn.Neural-Network-Image-Recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE003CA31D9EDAE500AA014C /* Build configuration list for PBXProject "Neural Network Image Recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE003CB81D9EDAE500AA014C /* Debug */,
+				DE003CB91D9EDAE500AA014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE003CBA1D9EDAE500AA014C /* Build configuration list for PBXNativeTarget "Neural Network Image Recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE003CBB1D9EDAE500AA014C /* Debug */,
+				DE003CBC1D9EDAE500AA014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE003CA01D9EDAE500AA014C /* Project object */;
+}
